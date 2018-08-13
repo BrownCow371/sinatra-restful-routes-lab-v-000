@@ -4,7 +4,7 @@
 
 <h2>Edit</h2>
 <form action="/recipes/<%=@recipe.id%>" method="post">
-  <input type="hidden" id="hidden" name="_method" value="patch">
+  <input id="hidden" type="hidden" name="_method" value="patch">
   <p>Name: <input type="text" id="name" name="name"></p>
   <p>Ingredients: <input type="text" id="ingredients" name="ingredients"></p>
   <p>Cook Time: <input type="text" id="cook_time" name="cook_time"></p>
